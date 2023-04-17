@@ -1,0 +1,27 @@
+<meta charset="UTF-8">
+<script>
+
+	function pulaLinha() {
+
+		//document.write("<br><br>");  ESSE COM \|/
+		//document.write("<hr></hr>"); ESSE FUNCIONA!
+		document.write("<br><hr></br>") //esse tbm funciona
+
+
+	}
+
+	function mostra(frase) {
+
+		document.write("<big>" + frase + "</big>"); //OBS FAZER BIG CONCATENADO COM FRASE
+		pulaLinha();
+	}
+
+	var ano = 2023;
+
+	mostra("Eu nasci em: " + (ano - 26));
+	mostra("Adriano nasceu em: " + (ano - 26));
+	mostra("Paulo nasceu em: " + (ano - 32));
+
+
+
+</script>
